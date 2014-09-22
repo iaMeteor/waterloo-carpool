@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<div xmlns:field="urn:jsptagdir:/WEB-INF/tags/form/fields" xmlns:jsp="http://java.sun.com/JSP/Page" xmlns:page="urn:jsptagdir:/WEB-INF/tags/form" version="2.0">
+    <jsp:directive.page contentType="text/html;charset=UTF-8"/>
+    <jsp:output omit-xml-declaration="yes"/>
+    <page:show id="ps_com_example_domain_Post" object="${post}" path="/posts" z="SO1zD9f98pbSP/P/+TVXFt1es2I=">
+        <field:display field="origin" id="s_com_example_domain_Post_origin" object="${post}" z="OXFp6PWEGnWXAaLcIKN1zJrH8G0="/>
+        <field:display field="destination" id="s_com_example_domain_Post_destination" object="${post}" z="zPkJ0CyuY2QBf9ZTPwg7UiDhC8Y="/>
+        <field:display field="date_time" id="s_com_example_domain_Post_date_time" object="${post}" z="yVAjvzmNQlWs8JbpfItwbOiSrSc="/>
+        <field:display field="price" id="s_com_example_domain_Post_price" object="${post}" z="XFuYH2ymlwo4zvHi28NyuyFtwV0="/>
+        <field:display field="tel" id="s_com_example_domain_Post_tel" object="${post}" z="zkDDSHUg2YAxhKjd3XBxP33knWA="/>
+        <field:display field="name" id="s_com_example_domain_Post_name" object="${post}" z="lD+L4UMmtkQmdGCP9N+vSEtn8vE="/>
+        <field:display field="off_LF" id="s_com_example_domain_Post_off_LF" object="${post}" z="XY+8WA0jnotwbf+iBKVQlj4ADZw="/>
+    </page:show>
+</div>

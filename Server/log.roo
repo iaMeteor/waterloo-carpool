@@ -1,0 +1,18 @@
+// Spring Roo 1.2.5.RELEASE [rev 8341dc2] log opened at 2014-03-19 21:05:59
+project --topLevelPackage com.example --projectName CarpoolPoster --java 7 --packaging WAR
+jpa setup --provider HIBERNATE --database POSTGRES
+jpa setup --provider HIBERNATE --database POSTGRES
+entity jpa --class ~.domain.Post --testAutomatically
+field string --fieldName origin --notNull
+field string --fieldName destination --notNull
+field string --fieldName date_time --notNull
+field number --fieldName price --type java.lang.Float
+field string --fieldName tel --notNull
+field string --fieldName name
+field boolean off_LF
+web mvc setup
+web mvc all --package ~.web
+json all
+web mvc json all
+quit
+// Spring Roo 1.2.5.RELEASE [rev 8341dc2] log closed at 2014-03-19 21:07:52
